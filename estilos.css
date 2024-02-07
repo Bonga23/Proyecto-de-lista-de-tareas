@@ -1,0 +1,70 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    /*background-image: url(img/digital-digital-art-artwork-illustration-minimalism-hd-wallpaper-preview.jpg);*/
+    background:linear-gradient(to right ,#0f2027,#203a43,#2c5364);
+    background-size:cover ; 
+    background-position: center  ;
+     display: flex;
+     justify-content: center;
+     padding-top: 25px;
+}
+
+.contenedor {
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 500px;
+    padding: 20px 10px;
+   
+}
+.estiloTarea{
+    background-color: rgb(255, 253, 253);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 5px 5px;
+    
+
+}
+input{
+    border: 2px solid black;
+}
+
+.listo{
+    color: rgb(25, 163, 205);
+}
+.eliminar{
+    color: red;
+    padding-left: 5px;
+}
+
+.terminado{
+    background-color: rgb(25, 163, 205);
+    text-decoration: line-through rgb(255, 0, 0);
+    
+}
+
+#titulo{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+   
+}
+
+#contadorTareasTotales{
+    color: white;
+
+}
+
+.texto{
+    color: white;
+
+}
+
